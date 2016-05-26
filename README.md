@@ -27,5 +27,47 @@ String str=DataUtil.read(context,"文件key","数据key"); //数据读取  返�
 DataUtil.delete(context,"文件key");//  data delete
 －－－－－－－－－－－－－－－－－－－－－－－－－
 
+＊NetWorkUtil
+／／网络连接 判断
+
+调用
+NetWorkUtil.iswork(context); // 返回 int
+
+NetWorkUtil.WIFE_CONNECT   // 常量 有wife连接
+ 
+NetWorkUtil.GPRS_CONNECT  //常量  有移动数据连接
+
+NetWorkUtil.NO_NETWORK    //常量  无网络连接
+－－－－－－－－－－－－－－－－－－－－－－－－－－
+＊TimeUntil 
+//时间工具类
+
+调用
+TimeUntil.getLocalDate(String format);  //获取当前本地日期，返回string, 
+                                        //format 日期格式 例如 yyyy年MM月dd日
+
+TimeUntil.getLocalTime(String format); //获取当前本地时间，返回string
+                                       //format 时间格式 例如 HH:mm
+
+TimeUntil.StrToDate(String format,, String dateStr); //字符串转换成日期类
+                                                     //format  例如 "yyyy年MM月dd日 HH:mm" or "yyyy年MM月dd日"
+                                                     //dateStr  字符串格式时间或 日期
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

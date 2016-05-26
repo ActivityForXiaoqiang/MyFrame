@@ -44,7 +44,7 @@ public class TimeUntil {
 	 * @return
 	 */
 	public static String getLocalTime(String format) {
-		DateFormat df = new SimpleDateFormat("HH:mm");
+		DateFormat df = new SimpleDateFormat(format);
 		return df.format(new Date());
 	}
 
