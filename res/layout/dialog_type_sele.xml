@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00000000"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/dialog_takephoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:clickable="true"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="拍照" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#dddddd" />
+
+    <TextView
+        android:id="@+id/dialog_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:clickable="true"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="从本地获取" />
+
+    <TextView
+        android:id="@+id/dialog_channel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#fff"
+        android:clickable="true"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="取消" />
+
+</LinearLayout>

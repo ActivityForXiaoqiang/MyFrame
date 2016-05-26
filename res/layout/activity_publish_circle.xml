@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30px" >
+
+        
+
+        <TextView
+            android:id="@+id/tv_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_margin="10px"
+            android:visibility="gone" />
+
+        <com.xiaoqiang.MyFrame.myview.NoScrollGridView
+            android:id="@+id/gv_gridview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:horizontalSpacing="3dp"
+            android:numColumns="4"
+            android:layout_marginTop="15dp"
+            android:scrollbars="none"
+            android:verticalSpacing="5dp" >
+        </com.xiaoqiang.MyFrame.myview.NoScrollGridView>
+
+        <Button
+            android:id="@+id/btn_send_circle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="完成"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+</LinearLayout>
