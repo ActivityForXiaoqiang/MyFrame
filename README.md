@@ -64,6 +64,14 @@ TimeUntil.getDayOfWeek(Date date);  //获取时间在一周当中的哪一天 �
 TimeUntil.getDayOfMouth(Date date); //获取时间在一月之中的哪一天 返回string
 
 --------------------------------------------------------------------------
+＊MeasureUtils
+//屏幕操作工具类
+调用
+MeasureUtils.getWidth(context) //获取屏幕宽
+
+MeasureUtils.getHeight(context) //获取屏幕高
+
+------------------------------------------------------------
 
 ＊CircleImageView
 //圆形头像
@@ -71,10 +79,14 @@ com.xiaoqiang.MyFrame.myview.CircleImageView
 
 
 * NoScrollGridView
-//无滚动条 网格list
+//无滚动条 GridView
+com.xiaoqiang.MyFrame.myview.NoScrollGridView
 
 
-
+＊NoScrollListView
+// 无滚动条ListView
+com.xiaoqiang.MyFrame.myview.NoScrollListView
+－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
 
 
 
