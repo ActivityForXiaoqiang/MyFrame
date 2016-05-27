@@ -88,10 +88,37 @@ com.xiaoqiang.MyFrame.myview.NoScrollGridView
 com.xiaoqiang.MyFrame.myview.NoScrollListView
 －－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
 
+本地相册 或 拍照 获取照片
+
+PublishCircleActivity  跳转至这个界面即可
+清单文件  
+<uses-feature android:name="android.hardware.camera" />
+<uses-feature android:name="android.hardware.camera.autofocus" />
+
+<uses-permission android:name="android.permission.CAMERA" />
+<uses-permission android:name="android.permission.READ_LOGS" />
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+<uses-permission android:name="android.permission.INTERNET" />
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+<uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+<uses-permission android:name="android.permission.GET_TASKS" />
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
 
+<activity android:name="com.xiaoqiang.MyFrame.photo.selector.TestPicActivity" >
+</activity>
+<activity android:name="com.xiaoqiang.MyFrame.photo.selector.ImageGridActivity" >
+</activity>
+<activity android:name="com.xiaoqiang.MyFrame.photo.selector.PhotoActivity" >
+</activity>
+<activity
+android:name="com.xiaoqiang.MyFrame.PublishCircleActivity"
+android:launchMode="singleTask" >
 
-
+</activity>
 
 
 
