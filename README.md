@@ -49,15 +49,29 @@ TimeUntil.getLocalDate(String format);  //获取当前本地日期，返回strin
 TimeUntil.getLocalTime(String format); //获取当前本地时间，返回string
                                        //format 时间格式 例如 HH:mm
 
-TimeUntil.StrToDate(String format,, String dateStr); //字符串转换成日期类
+TimeUntil.StrToDate(String format,String dateStr); //字符串转换成日期类  返回date
                                                      //format  例如 "yyyy年MM月dd日 HH:mm" or "yyyy年MM月dd日"
                                                      //dateStr  字符串格式时间或 日期
 
 
+TimeUntil.StrToDate(Date date, String format); //日期时间转换成字符串  返回stirng
+                                               
+TimeUntil.getTomorrowDate(String format); //获取明天日期  返回string
+
+TimeUntil.getDayOfWeek(Date date);  //获取时间在一周当中的哪一天 返回string
 
 
+TimeUntil.getDayOfMouth(Date date); //获取时间在一月之中的哪一天 返回string
+
+--------------------------------------------------------------------------
+
+＊CircleImageView
+//圆形头像
+com.xiaoqiang.MyFrame.myview.CircleImageView
 
 
+* NoScrollGridView
+//无滚动条 网格list
 
 
 
