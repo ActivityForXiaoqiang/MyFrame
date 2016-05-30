@@ -47,7 +47,7 @@ import android.widget.TextView;
 /**
  * 发布圈子
  * 
- * @author zhouyou
+ * @author xiaoqiang
  */
 public class PublishCircleActivity extends BaseActivity implements OnClickListener {
 	private static final int MAX_INPUT_LENGTH = 140;// 最大输入长度
